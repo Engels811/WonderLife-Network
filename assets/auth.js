@@ -1,6 +1,6 @@
 
 function login(){
-  const client_id = "YOUR_DISCORD_CLIENT_ID";
+  const client_id = "1440533345523204217";
   const redirect = window.location.origin + window.location.pathname;
   const url = `https://discord.com/oauth2/authorize?client_id=${client_id}&redirect_uri=${encodeURIComponent(redirect)}&response_type=token&scope=identify%20guilds`;
   window.location.href = url;
